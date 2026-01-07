@@ -33,7 +33,7 @@ $flash = get_flash_message();
     <div class="login-container">
         <div class="login-box">
             <div class="login-header">
-                <img src="../assets/img/logo-kemenag.png" alt="Logo Kemenag" class="logo" onerror="this.style.display='none'">
+                <img src="../assets/img/kemenag.png" alt="Logo Kemenag" class="logo" onerror="this.style.display='none'">
                 <h1>Sistem Peminjaman Aula</h1>
                 <p>Kementerian Agama Kabupaten Jombang</p>
             </div>

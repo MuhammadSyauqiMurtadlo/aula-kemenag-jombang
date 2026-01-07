@@ -1,5 +1,5 @@
 <?php
-session_status();
+session_start();
 require_once '../config/database.php';
 
 // Cek role admin

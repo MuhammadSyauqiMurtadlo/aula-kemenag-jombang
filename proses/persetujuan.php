@@ -51,12 +51,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             
             $stmt2 = mysqli_prepare($conn, $insert_histori);
-            mysqli_stmt_bind_param($stmt2, "iiissssssis", 
-                $id, $data['aula_id'], $data['seksi_id'], $data['nama_kegiatan'],
-                $data['tanggal_mulai'], $data['tanggal_selesai'], 
-                $data['waktu_mulai'], $data['waktu_selesai'], 
-                $data['jumlah_peserta'], $data['keterangan']
-            );
+            mysqli_stmt_bind_param($stmt2, "iiisssssis", 
+            $id, $data['aula_id'], $data['seksi_id'], $data['nama_kegiatan'],
+            $data['tanggal_mulai'], $data['tanggal_selesai'], 
+            $data['waktu_mulai'], $data['waktu_selesai'], 
+            $data['jumlah_peserta'], $data['keterangan']
+        );
             
             mysqli_stmt_execute($stmt2);
             

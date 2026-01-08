@@ -122,7 +122,8 @@ function cek_bentrok_jadwal($aula_id, $tanggal_mulai, $tanggal_selesai, $waktu_m
     $stmt = mysqli_prepare($conn, $query);
     
     if ($pengajuan_id) {
-        mysqli_stmt_bind_param($stmt, "isssssssssssi", 
+        // PERHATIKAN: tambah 1 huruf 's' jadi "issssssssssss" (13 huruf 's')
+        mysqli_stmt_bind_param($stmt, "issssssssssssi", 
             $aula_id, 
             $tanggal_mulai, $tanggal_mulai,
             $tanggal_selesai, $tanggal_selesai,
@@ -133,7 +134,8 @@ function cek_bentrok_jadwal($aula_id, $tanggal_mulai, $tanggal_selesai, $waktu_m
             $pengajuan_id
         );
     } else {
-        mysqli_stmt_bind_param($stmt, "isssssssssss", 
+        // PERHATIKAN: tambah 1 huruf 's' jadi "issssssssssss" (13 huruf 's')
+        mysqli_stmt_bind_param($stmt, "issssssssssss", 
             $aula_id, 
             $tanggal_mulai, $tanggal_mulai,
             $tanggal_selesai, $tanggal_selesai,

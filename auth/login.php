@@ -59,12 +59,12 @@ $flash = get_flash_message();
             </form>
 
             <div class="login-footer">
-                <p>Default Login:</p>
+                <!-- <p>Default Login:</p>
                 <ul>
                     <li><strong>Admin:</strong> admin / admin123</li>
                     <li><strong>Pimpinan:</strong> pimpinan / pimpinan123</li>
                     <li><strong>User:</strong> user_keuangan / user123</li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>

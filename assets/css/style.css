@@ -55,7 +55,9 @@ body {
 /* Sidebar */
 .sidebar {
   width: 260px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  /* background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%); */
+  background: #1e3c72;
   color: white;
   position: fixed;
   height: 100vh;
@@ -339,7 +341,7 @@ body {
 
 /* Forms */
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
@@ -496,6 +498,7 @@ body {
 .modal-content {
   background-color: white;
   margin: 5% auto;
+  padding: 25px;
   border-radius: 8px;
   width: 90%;
   max-width: 600px;
@@ -595,72 +598,6 @@ body {
   padding: 15px;
   background: #f9fafb;
   border-radius: 5px;
-}
-
-/* Login Page */
-.login-page {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.login-container {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-}
-
-.login-box {
-  background: white;
-  border-radius: 10px;
-  padding: 40px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.login-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.login-header .logo {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 15px;
-}
-
-.login-header h1 {
-  font-size: 22px;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.login-header p {
-  color: #777;
-  font-size: 14px;
-}
-
-.login-form {
-  margin-bottom: 20px;
-}
-
-.login-footer {
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #e0e0e0;
-  font-size: 12px;
-  color: #777;
-}
-
-.login-footer ul {
-  list-style: none;
-  text-align: left;
-  margin-top: 10px;
-}
-
-.login-footer li {
-  margin-bottom: 5px;
 }
 
 /* Utilities */
